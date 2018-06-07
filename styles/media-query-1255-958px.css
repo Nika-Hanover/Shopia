@@ -1,0 +1,11 @@
+@media screen and (max-width: 1255px)and (min-width: 958px) {
+
+	.support .title {
+		font-size: 1.5em;
+		margin-top: 2%;
+	}
+	.support .descr {
+		font-size: 1em;
+	}
+
+}

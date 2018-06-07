@@ -1,0 +1,36 @@
+@media screen and (max-width: 707px)and (min-width: 638px) {
+
+	.slider-main-img .main-sale{
+		left: 28%;
+	}
+	.slider .button{
+		left: 35%;
+	}
+	.nav-slider {
+		left: 41%;
+	}
+	.support i{
+		font-size: 3em;
+	}
+	.support .free-chipping , .support .returns, .support .support24 {
+		background-size: 0% 100%;
+		width: 31.5%;
+		min-width: 31.5%;
+		margin: 0;
+		/*box-sizing: border-box;*/
+	} 
+	.support .returns{
+		width: 37%;
+		min-width: 37%;
+	}
+
+	.support .free-chipping .text-conteiner, 
+	.support .returns .text-conteiner,
+	.support .support24 .text-conteiner{
+		width:100%;
+		padding: 0;
+		margin: 0;
+
+	}
+
+}

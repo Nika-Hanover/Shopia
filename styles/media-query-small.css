@@ -1,0 +1,78 @@
+@media screen and (max-width: 483px/*320px*/) {
+	.welcome {
+		margin: 0 10%;
+		float: left;
+	}
+	.menu {
+		margin: -40px 20% 0;
+	}
+	.slider-main-img .main-sale{
+		left: 12%;
+	}
+	.slider .button{
+		left: 20%;
+	}
+	.nav-slider {
+		left: 35%;
+	}
+	.support i {
+		font-size: 4em;/*4.8em;*/
+		padding: 3%;
+	}
+	.support .title {
+		font-size: 1.5em;
+		margin-top: 2%;
+	}
+	.support .descr {
+		font-size: 1em;
+	}
+	.support .free-chipping .text-conteiner,
+	.support .returns .text-conteiner,
+	.support .support24 .text-conteiner{
+		width: 100%;
+		margin: 0;
+		padding: 0 4%;
+		height: 100%;
+	}
+	.support .free-chipping, .support .returns, .support .support24{
+		margin: 0;
+		width: 100%;
+		background-size: 0 100%;
+		height: 100%;
+	}
+	.summer-collection .sc-button {
+		font-size: 1em;
+	}
+	.testimonial  img{
+		padding: 15% 10%;
+	}
+	.testimonial .descr-text {
+		width: 85%;
+		margin: 0 10%;
+	}
+	.testimonial-two {
+		width: 100%;
+	}
+	.info-block {
+		margin: 0px 10%;
+	}
+	.social-subscribe {
+		width: 80%;
+		margin-left: 10%;
+	}
+	.social-subscribe .social-buttons li {
+		margin-top: 3%;
+	}
+	.social-subscribe form{
+		font-size: 1%;
+	}
+	footer p {
+		margin-left: 5%;
+	}
+	footer a.up-to{
+		margin-right: 5%;
+	}
+	footer .ways-to-pay{
+		margin-left: 5%;
+	}
+}

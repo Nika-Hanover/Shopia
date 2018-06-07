@@ -1,0 +1,89 @@
+@media screen and (max-width: 640px){
+	.burger-menu {
+		display: block;
+	}
+	label[for="burger-menu"] {
+		display: block;
+		position: fixed;
+		z-index: 200;
+		margin-top: -4em;
+		width: 50px;
+		height: 50px;
+		cursor: pointer;
+		background-image: url("../images/burger-menu-orange.png");
+		background-size: contain;
+	}
+	label[for="burger-menu"]:hover {
+		background-color: #C4C1BE;
+	}
+	.burger-menu:checked + label {
+		background-color: #DBD6D3;
+		opacity: 0.8;		
+		border: 1px dotted #817b77;
+	}
+	.burger-menu:checked  + label +.menu{
+		display: inline-block;
+		position: fixed;
+		z-index: 200;
+		box-sizing: border-box;
+		width:12em;
+		margin: 0;
+		margin-top: -4em;/*-53px;*/
+		margin-left: 52px;
+	}
+	.menu {
+		display: none;
+	}
+	.menu li {
+		display: block;
+		float: none;
+		margin: 0;
+	}
+	.menu li a {
+		display: block;
+		width: 100%;
+		height: 2em;
+		padding-left: 1em;
+		background-color: #DBD6D3;
+		opacity: 0.8;
+		cursor: pointer;
+	}
+	.menu li a:hover{
+		background-color: #C4C1BE;
+	}
+	.menu li a:active{
+		background-color: #F2E2D8;
+		border: 1px dotted #DBD6D3;
+	}
+		.bar .column-right {
+		min-width: 75%;
+	}
+	.hand-picked .column-center {
+		width: 100%;
+		margin: 0 1%;
+	}
+	.hand-picked .column-left {
+		width: 100%;
+	}
+	.hand-picked .column-right{
+		width: 100%;
+	}
+	.hand-picked .column-right-1,.hand-picked .column-right-2{
+		width: 100%;
+		margin: 0 1%;
+	}
+	.hand-picked .img img {
+		min-width: 100%;
+		width: 100%;
+	}
+	.hidden-little a, .hidden-big a {
+		left: 36%;
+	}
+	.summer-collection .product {
+		width: 49%;
+		min-width: 49%;
+	}
+	.summer-collection .product img{
+		width: 100%;
+	}
+}

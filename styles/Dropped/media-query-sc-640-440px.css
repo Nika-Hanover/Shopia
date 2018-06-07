@@ -1,0 +1,9 @@
+@media screen and (max-width: 640px) and (min-width: 440px){
+
+	.summer-collection .sc-discount {
+		font-size: 2.3em;
+	}
+	.summer-collection .sc-discount span {
+		font-size: 1em;
+	}
+}

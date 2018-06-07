@@ -1,0 +1,29 @@
+@media screen and (max-width: 510px){
+
+	.summer-collection .sc-button {
+		left: 5%;/*44px;*/
+		width: 90%;/*198px;/*60%;*/
+		max-width: 95%;
+		font-size: 1.1em;
+		padding: 1%;
+	}
+	.summer-collection .sc-button span {
+		margin-top: 0.75em;
+	}
+	.summer-collection .sc-discount {
+		width: 25%;/*60px;*/
+		height: 20%;/*60px;*/
+		font-size: 1.4em;
+		padding-top: 5%;
+		top: 5%;/*18px;*/
+		left: 5%;/*16px;*/
+		text-align:center;
+		border: 1px solid inherit;
+		padding-top: 5%;
+	}
+	.summer-collection .sc-discount span {
+		font-size: 0.75em;
+		vertical-align: middle;
+		font-weight: none;
+	}
+}

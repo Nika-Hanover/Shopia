@@ -1,0 +1,61 @@
+@media screen and (max-width: 957px)and (min-width: 483px/*638px*/) {
+	.bar .column-right {
+		min-width: 40%;
+	}
+	.slider-main-img .main-sale{
+		left: 33%;
+	}
+	.slider .button{
+		left: 38%;
+	}
+	.nav-slider {
+		left: 43%;
+	}
+	.support i{
+		font-size: 3em;
+	}
+	.support .title {
+		font-size: 1.2em;
+		margin-top: 2%;
+	}
+	.support .descr {
+		font-size: 1em;
+	}
+	.support .free-chipping , .support .returns, .support .support24 {
+		width: 31%;
+		min-width: 31%;
+		margin: 0;
+		box-sizing: border-box;
+	} 
+	.support .returns{
+		width: 40%; 
+		margin: 0 -1%;
+	}
+	.support .support24 {
+		margin-left: -2%;
+	}
+	.support .returns .title{
+		font-size: 1.2em;
+	}
+	.support .free-chipping .text-conteiner, 
+	.support .support24 .text-conteiner {
+		width: 90%;
+		padding: 0;
+		margin: 0;
+	}
+	.support .returns .text-conteiner{
+	} 
+	.hand-picked .column-center {
+		width: 50.5%;
+	}
+	.hand-picked .column-left {
+		width: 44.5%;
+	}
+	.hand-picked .column-right{
+		width: 100%;
+	}
+	.hand-picked .column-right-1,.hand-picked .column-right-2{
+		width: 45%;
+		margin: 0 1%;
+	}
+}
